@@ -10,7 +10,7 @@ if(!puzzleNumber) {
     })
     .catch((error) => {
       if (error.code === 'ERR_MODULE_NOT_FOUND') {
-        console.error(`Puzzle ${puzzleNumber} does not exist yet.`);
+        console.error(`Puzzle ${puzzleNumber} does not exist yet.`, error);
       } else {
         console.error(`An error occurred while loading puzzle ${puzzleNumber}:\n${error}`);
       }
