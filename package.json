@@ -12,5 +12,8 @@
     "start": "node index.js"
   },
   "author": "Jan Korona <jan.korona@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "heap": "^0.2.7"
+  }
 }
